@@ -1,0 +1,46 @@
+{
+  "picos": [
+    {
+      "pavadinimas": "Andriaus ypatingoji",
+      "aprašymas": "Itin daug sūrio turinti pica ant plono ir traškaus pagrindo su alyvuogėmis ir grybais.",
+      "priedai": [
+        "grybai",
+        "alyvuogės"
+      ],
+      "kaina": 12,
+      "id": 1
+    },
+    {
+      "pavadinimas": "Ievos nepaprastoji",
+      "aprašymas": "Paprikos ir grybai ant Ievos kurto nepaprasto česnakinio pagrindo, su BBQ padažu.",
+      "priedai": [
+        "grybai",
+        "pipirai"
+      ],
+      "kaina": 10,
+      "id": 2
+    },
+    {
+      "pavadinimas": "Justės Havajiška",
+      "aprašymas": "Vaisinis ananasų, kukurūzų ir grybų derinys ant lengvo, plono pagrindo.",
+      "priedai": [
+        "ananasas"
+      ],
+      "kaina": 15,
+      "id": 3
+    },
+    {
+      "pavadinimas": "Gerardo nuostabioji",
+      "aprašymas": "Šiai picai tikrai nieko netrūksta! Visi priedai - galingas skonis!",
+      "priedai": [
+        "grybai",
+        "pipirai",
+        "kukurūzai",
+        "alyvuogės",
+        "ananasas"
+      ],
+      "kaina": 18,
+      "id": 4
+    }
+  ]
+}

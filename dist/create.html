@@ -1,0 +1,64 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="/create.3092e1e0.css">
+		<title>Sukurti naują patiekalą</title>
+        <script src="/create.6789991c.js" defer=""></script>
+	</head>
+	<body>
+		<nav>
+			<h1>Sukurkime naują picą</h1>
+			<a href="/index.html" class="btn">Atgal į meniu</a>
+		</nav>
+
+		<main class="wrap">
+			<form class="create">
+				<!-- picos pavadinimas -->
+				<label for="pavadinimas">
+					<span>Pavadinimas:</span>
+					<input type="text" name="pavadinimas" required="">
+				</label>
+
+				<!-- picos aprašymas -->
+				<label for="aprašymas">
+					<span>Aprašymas:</span>
+					<textarea name="aprašymas" required=""></textarea>
+				</label>
+
+				<!-- picos priedai -->
+				<fieldset>
+					<legend>Pasirinkti priedus:</legend>
+					<label>
+						<input type="checkbox" name="priedai" value="grybai">
+						<span>grybai</span>
+					</label>
+					<label>
+						<input type="checkbox" name="priedai" value="pipirai">
+						<span>pipirai</span>
+					</label>
+					<label>
+						<input type="checkbox" name="priedai" value="kukurūzai">
+						<span>kukurūzai</span>
+					</label>
+					<label>
+						<input type="checkbox" name="priedai" value="alyvuogės">
+						<span>alyvuogės</span>
+					</label>
+					<label>
+						<input type="checkbox" name="priedai" value="ananasas">
+						<span>ananasas</span>
+					</label>
+				</fieldset>
+
+				<!-- picos kaina -->
+				<label for="kaina">
+					<span>Kaina:</span>
+					<input type="number" name="kaina" required="">
+				</label>
+
+				<button>Sukurti!</button>
+			</form>
+		</main>
+	</body>
+</html>
